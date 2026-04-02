@@ -1,0 +1,35 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "always",
+    "source.organizeImports": "always"
+  },
+
+  "workbench.panel.defaultLocation": "bottom",
+
+  "prettier.printWidth": 150,
+  "prettier.arrowParens": "always",
+  "prettier.semi": false,
+  "prettier.trailingComma": "all",
+  "prettier.experimentalTernaries": true,
+  "prettier.bracketSpacing": true,
+
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+
+  "explorer.confirmDelete": false,
+
+  "solidity.telemetry": false,
+  "[solidity]": {
+    "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "bradlc.vscode-tailwindcss"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.openRepositoryInParentFolders": "never",
+  "git.confirmSync": false
+}
