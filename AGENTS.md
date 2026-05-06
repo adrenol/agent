@@ -20,10 +20,13 @@ Write the simplest possible code that works correctly.
 - Avoid nested logic deeper than 2 levels when possible.
 - Prefer explicit code over implicit behavior.
 
+## External endpoints
+
+- You can send requests to external endpoints to inspect their response format.
+
 ## Constraints
 
 - Do not modify `.env`.
-- Do not modify any Docker files.
 - Do not use environment variables for non-secret configuration.
 - Do not use git.
-- Do not mention Pi Coding Agent in code
+- Do not mention yourself in code
