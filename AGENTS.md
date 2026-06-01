@@ -30,3 +30,16 @@ Write the simplest possible code that works correctly.
 - Do not use environment variables for non-secret configuration.
 - Do not use git.
 - Do not mention yourself in code
+
+## RTK - Rust Token Killer
+
+**Usage**: Token-optimized CLI proxy (60-90% savings on dev operations)
+
+### Meta Commands (always use rtk directly)
+
+```bash
+rtk gain              # Show token savings analytics
+rtk gain --history    # Show command usage history with savings
+rtk discover          # Analyze your history for missed opportunities
+rtk proxy <cmd>       # Execute raw command without filtering (for debugging)
+```
