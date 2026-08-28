@@ -31,9 +31,21 @@ Write the simplest possible code that works correctly.
 - Do not use git.
 - Do not mention yourself in code
 
+## Validation Rule
+
+Always run `rtk bun run test` and `rtk bun run typecheck` after making code changes, before concluding the task. Never skip typechecking.
+
 ## RTK - Rust Token Killer
 
 **Usage**: Token-optimized CLI proxy (60-90% savings on dev operations)
+
+### Quick JS/TS Testing
+
+When you need to run small JavaScript or TypeScript snippets for testing logic, regex, or simple functions, DO NOT create temporary files using bash commands (e.g., `cat > test.ts`).
+
+Instead, ALWAYS execute the code inline using the `rtk bun -e '...'` command. Be careful with string quoting and escaping variables when passing the script directly in the terminal.
+
+Example: `rtk bun -e 'const regex = /(^|\\P{L})name(\\P{L}|$)/vi; console.log(regex.test("name123"));'`
 
 ### Meta Commands (always use rtk directly)
 
