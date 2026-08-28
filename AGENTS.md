@@ -12,6 +12,7 @@ Write the simplest possible code that works correctly.
 - Do not over-engineer.
 - Always organize growing code into small, purpose-based subfolders (e.g., `utils/`, `helpers/`, `config/`, `services/`, `types/`, `features/`) and split large files or mixed-responsibility modules into focused, single-responsibility files placed in the appropriate folder based on scope and reuse.
 - Add simple TSDoc comments explaining code purpose.
+- Add logging with enough context to easily debug issues later; never log secrets or sensitive data.
 
 ## Readability
 
